@@ -8,7 +8,6 @@ public class NimToRun {
         System.out.print("NIM : ");
         String nim = input.nextLine();
 
-        //String nim = "12050112032";
         NIM objNim = new NIM();
         objNim.setNim(nim);
         System.out.println("Jenjang Perndidikan = "+objNim.getJenjang());
