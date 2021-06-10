@@ -46,14 +46,6 @@ public class tablearray {
                             JOptionPane.WARNING_MESSAGE);
                     return;
                 }
-                /**if (input.isEmpty() || angka.isEmpty()) {
-                    JOptionPane.showMessageDialog(rootPanel,
-                            "Data belum anda masukkan",
-                            "Warning!!!",
-                            JOptionPane.WARNING_MESSAGE);
-
-                    return;
-                }*/
                 if (!added) {
                     for (int i = 0; i < jumlah; i++) {
                         model.addRow(new Object[]{});
